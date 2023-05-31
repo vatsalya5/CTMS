@@ -1,0 +1,82 @@
+#gfg {
+   /* Add a search icon to input */
+  background-image: url(downlod.jpg);
+  background-position: 0px 0px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 95%; /* Full-width */
+  font-size: 15px; /* Increase font-size */
+  color:#fff;
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+h1{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  table{
+    width:100%;
+    table-layout: fixed;
+    
+    padding-top: 50px;
+  }
+  .tbl-header{
+    background-color: rgba(13, 26, 125, 0.955);
+   }
+  .tbl-content{
+    height:500px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);    
+  }
+  th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    border:solid 2px rgba(255,255,255,0.1);
+  }
+  td{
+    padding: 15px;
+    text-align: left;
+    vertical-align:middle;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+    border:solid 2px rgba(255,255,255,0.1);
+  }
+  
+  
+  /* demo styles */
+  
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+  body{
+    background-image: url(downlod.jpg);
+    font-family: 'Roboto', sans-serif;
+  }
+  section{
+    margin: 50px;
+  }
+  
+  
+  
+  
+  
+  /* for custom scrollbar for webkit browser*/
+  
+  ::-webkit-scrollbar {
+      width: 6px;
+  } 
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(13, 26, 125, 0.955); 
+  } 
+  ::-webkit-scrollbar-thumb {
+      -webkit-box-shadow: inset 0 0 6px rgba(253, 253, 253, 0.955); 
+  }
